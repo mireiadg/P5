@@ -1382,7 +1382,7 @@ void MidiFile::splitTracks(void) {
    }
 
    int trackValue = 0;
-   for (i=0; length; i++) {
+   for (i=0; i < length; i++) {
       trackValue = (*olddata)[i].track;
       events[trackValue]->append((*olddata)[i]);
    }

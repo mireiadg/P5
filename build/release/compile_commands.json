@@ -1,0 +1,116 @@
+[
+  {
+    "directory": "/Users/mireiadg/Documents/PAV/P5/build/release",
+    "command": "c++ -Isrc/pav/c0b918b@@pav@sta -Isrc/pav -I../../src/pav -I../../src/include -I../../src/synth -I../../src/instruments -I../../src/pav/docopt_cpp -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -MD -MQ 'src/pav/c0b918b@@pav@sta/wavfile_mono.cpp.o' -MF 'src/pav/c0b918b@@pav@sta/wavfile_mono.cpp.o.d' -o 'src/pav/c0b918b@@pav@sta/wavfile_mono.cpp.o' -c ../../src/pav/wavfile_mono.cpp",
+    "file": "../../src/pav/wavfile_mono.cpp",
+    "output": "src/pav/c0b918b@@pav@sta/wavfile_mono.cpp.o"
+  },
+  {
+    "directory": "/Users/mireiadg/Documents/PAV/P5/build/release",
+    "command": "c++ -Isrc/pav/c0b918b@@pav@sta -Isrc/pav -I../../src/pav -I../../src/include -I../../src/synth -I../../src/instruments -I../../src/pav/docopt_cpp -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -MD -MQ 'src/pav/c0b918b@@pav@sta/keyvalue.cpp.o' -MF 'src/pav/c0b918b@@pav@sta/keyvalue.cpp.o.d' -o 'src/pav/c0b918b@@pav@sta/keyvalue.cpp.o' -c ../../src/pav/keyvalue.cpp",
+    "file": "../../src/pav/keyvalue.cpp",
+    "output": "src/pav/c0b918b@@pav@sta/keyvalue.cpp.o"
+  },
+  {
+    "directory": "/Users/mireiadg/Documents/PAV/P5/build/release",
+    "command": "c++ -Isrc/pav/c0b918b@@pav@sta -Isrc/pav -I../../src/pav -I../../src/include -I../../src/synth -I../../src/instruments -I../../src/pav/docopt_cpp -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -MD -MQ 'src/pav/c0b918b@@pav@sta/docopt_cpp_docopt.cpp.o' -MF 'src/pav/c0b918b@@pav@sta/docopt_cpp_docopt.cpp.o.d' -o 'src/pav/c0b918b@@pav@sta/docopt_cpp_docopt.cpp.o' -c ../../src/pav/docopt_cpp/docopt.cpp",
+    "file": "../../src/pav/docopt_cpp/docopt.cpp",
+    "output": "src/pav/c0b918b@@pav@sta/docopt_cpp_docopt.cpp.o"
+  },
+  {
+    "directory": "/Users/mireiadg/Documents/PAV/P5/build/release",
+    "command": "c++ -Isrc/25a6634@@synth@exe -Isrc -I../../src -I../../src/include -I../../src/synth -I../../src/instruments -I../../src/pav/docopt_cpp -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -MD -MQ 'src/25a6634@@synth@exe/instruments_instrument.cpp.o' -MF 'src/25a6634@@synth@exe/instruments_instrument.cpp.o.d' -o 'src/25a6634@@synth@exe/instruments_instrument.cpp.o' -c ../../src/instruments/instrument.cpp",
+    "file": "../../src/instruments/instrument.cpp",
+    "output": "src/25a6634@@synth@exe/instruments_instrument.cpp.o"
+  },
+  {
+    "directory": "/Users/mireiadg/Documents/PAV/P5/build/release",
+    "command": "c++ -Isrc/25a6634@@synth@exe -Isrc -I../../src -I../../src/include -I../../src/synth -I../../src/instruments -I../../src/pav/docopt_cpp -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -MD -MQ 'src/25a6634@@synth@exe/instruments_instrument_dumb.cpp.o' -MF 'src/25a6634@@synth@exe/instruments_instrument_dumb.cpp.o.d' -o 'src/25a6634@@synth@exe/instruments_instrument_dumb.cpp.o' -c ../../src/instruments/instrument_dumb.cpp",
+    "file": "../../src/instruments/instrument_dumb.cpp",
+    "output": "src/25a6634@@synth@exe/instruments_instrument_dumb.cpp.o"
+  },
+  {
+    "directory": "/Users/mireiadg/Documents/PAV/P5/build/release",
+    "command": "c++ -Isrc/25a6634@@synth@exe -Isrc -I../../src -I../../src/include -I../../src/synth -I../../src/instruments -I../../src/pav/docopt_cpp -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -MD -MQ 'src/25a6634@@synth@exe/instruments_seno.cpp.o' -MF 'src/25a6634@@synth@exe/instruments_seno.cpp.o.d' -o 'src/25a6634@@synth@exe/instruments_seno.cpp.o' -c ../../src/instruments/seno.cpp",
+    "file": "../../src/instruments/seno.cpp",
+    "output": "src/25a6634@@synth@exe/instruments_seno.cpp.o"
+  },
+  {
+    "directory": "/Users/mireiadg/Documents/PAV/P5/build/release",
+    "command": "c++ -Isrc/25a6634@@synth@exe -Isrc -I../../src -I../../src/include -I../../src/synth -I../../src/instruments -I../../src/pav/docopt_cpp -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -MD -MQ 'src/25a6634@@synth@exe/synth_envelope_adsr.cpp.o' -MF 'src/25a6634@@synth@exe/synth_envelope_adsr.cpp.o.d' -o 'src/25a6634@@synth@exe/synth_envelope_adsr.cpp.o' -c ../../src/synth/envelope_adsr.cpp",
+    "file": "../../src/synth/envelope_adsr.cpp",
+    "output": "src/25a6634@@synth@exe/synth_envelope_adsr.cpp.o"
+  },
+  {
+    "directory": "/Users/mireiadg/Documents/PAV/P5/build/release",
+    "command": "c++ -Isrc/25a6634@@synth@exe -Isrc -I../../src -I../../src/include -I../../src/synth -I../../src/instruments -I../../src/pav/docopt_cpp -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -MD -MQ 'src/25a6634@@synth@exe/synth_midi_score.cpp.o' -MF 'src/25a6634@@synth@exe/synth_midi_score.cpp.o.d' -o 'src/25a6634@@synth@exe/synth_midi_score.cpp.o' -c ../../src/synth/midi_score.cpp",
+    "file": "../../src/synth/midi_score.cpp",
+    "output": "src/25a6634@@synth@exe/synth_midi_score.cpp.o"
+  },
+  {
+    "directory": "/Users/mireiadg/Documents/PAV/P5/build/release",
+    "command": "c++ -Isrc/25a6634@@synth@exe -Isrc -I../../src -I../../src/include -I../../src/synth -I../../src/instruments -I../../src/pav/docopt_cpp -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -MD -MQ 'src/25a6634@@synth@exe/synth_multinote_instr.cpp.o' -MF 'src/25a6634@@synth@exe/synth_multinote_instr.cpp.o.d' -o 'src/25a6634@@synth@exe/synth_multinote_instr.cpp.o' -c ../../src/synth/multinote_instr.cpp",
+    "file": "../../src/synth/multinote_instr.cpp",
+    "output": "src/25a6634@@synth@exe/synth_multinote_instr.cpp.o"
+  },
+  {
+    "directory": "/Users/mireiadg/Documents/PAV/P5/build/release",
+    "command": "c++ -Isrc/25a6634@@synth@exe -Isrc -I../../src -I../../src/include -I../../src/synth -I../../src/instruments -I../../src/pav/docopt_cpp -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -MD -MQ 'src/25a6634@@synth@exe/synth_orchest.cpp.o' -MF 'src/25a6634@@synth@exe/synth_orchest.cpp.o.d' -o 'src/25a6634@@synth@exe/synth_orchest.cpp.o' -c ../../src/synth/orchest.cpp",
+    "file": "../../src/synth/orchest.cpp",
+    "output": "src/25a6634@@synth@exe/synth_orchest.cpp.o"
+  },
+  {
+    "directory": "/Users/mireiadg/Documents/PAV/P5/build/release",
+    "command": "c++ -Isrc/25a6634@@synth@exe -Isrc -I../../src -I../../src/include -I../../src/synth -I../../src/instruments -I../../src/pav/docopt_cpp -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -MD -MQ 'src/25a6634@@synth@exe/synth_synthesizer.cpp.o' -MF 'src/25a6634@@synth@exe/synth_synthesizer.cpp.o.d' -o 'src/25a6634@@synth@exe/synth_synthesizer.cpp.o' -c ../../src/synth/synthesizer.cpp",
+    "file": "../../src/synth/synthesizer.cpp",
+    "output": "src/25a6634@@synth@exe/synth_synthesizer.cpp.o"
+  },
+  {
+    "directory": "/Users/mireiadg/Documents/PAV/P5/build/release",
+    "command": "c++ -Isrc/25a6634@@synth@exe -Isrc -I../../src -I../../src/include -I../../src/synth -I../../src/instruments -I../../src/pav/docopt_cpp -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -MD -MQ 'src/25a6634@@synth@exe/effects_effect.cpp.o' -MF 'src/25a6634@@synth@exe/effects_effect.cpp.o.d' -o 'src/25a6634@@synth@exe/effects_effect.cpp.o' -c ../../src/effects/effect.cpp",
+    "file": "../../src/effects/effect.cpp",
+    "output": "src/25a6634@@synth@exe/effects_effect.cpp.o"
+  },
+  {
+    "directory": "/Users/mireiadg/Documents/PAV/P5/build/release",
+    "command": "c++ -Isrc/25a6634@@synth@exe -Isrc -I../../src -I../../src/include -I../../src/synth -I../../src/instruments -I../../src/pav/docopt_cpp -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -MD -MQ 'src/25a6634@@synth@exe/effects_tremolo.cpp.o' -MF 'src/25a6634@@synth@exe/effects_tremolo.cpp.o.d' -o 'src/25a6634@@synth@exe/effects_tremolo.cpp.o' -c ../../src/effects/tremolo.cpp",
+    "file": "../../src/effects/tremolo.cpp",
+    "output": "src/25a6634@@synth@exe/effects_tremolo.cpp.o"
+  },
+  {
+    "directory": "/Users/mireiadg/Documents/PAV/P5/build/release",
+    "command": "c++ -Isrc/25a6634@@synth@exe -Isrc -I../../src -I../../src/include -I../../src/synth -I../../src/instruments -I../../src/pav/docopt_cpp -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -MD -MQ 'src/25a6634@@synth@exe/effects_vibrato.cpp.o' -MF 'src/25a6634@@synth@exe/effects_vibrato.cpp.o.d' -o 'src/25a6634@@synth@exe/effects_vibrato.cpp.o' -c ../../src/effects/vibrato.cpp",
+    "file": "../../src/effects/vibrato.cpp",
+    "output": "src/25a6634@@synth@exe/effects_vibrato.cpp.o"
+  },
+  {
+    "directory": "/Users/mireiadg/Documents/PAV/P5/build/release",
+    "command": "c++ -Isrc/midi2scores/e3a398d@@midi2skini@exe -Isrc/midi2scores -I../../src/midi2scores -I../../src/midi2scores/include -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -DOSXPC -m32 -arch x86_64 -MD -MQ 'src/midi2scores/e3a398d@@midi2skini@exe/src_midi2skini.cpp.o' -MF 'src/midi2scores/e3a398d@@midi2skini@exe/src_midi2skini.cpp.o.d' -o 'src/midi2scores/e3a398d@@midi2skini@exe/src_midi2skini.cpp.o' -c ../../src/midi2scores/src/midi2skini.cpp",
+    "file": "../../src/midi2scores/src/midi2skini.cpp",
+    "output": "src/midi2scores/e3a398d@@midi2skini@exe/src_midi2skini.cpp.o"
+  },
+  {
+    "directory": "/Users/mireiadg/Documents/PAV/P5/build/release",
+    "command": "c++ -Isrc/midi2scores/e3a398d@@midi2skini@exe -Isrc/midi2scores -I../../src/midi2scores -I../../src/midi2scores/include -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -DOSXPC -m32 -arch x86_64 -MD -MQ 'src/midi2scores/e3a398d@@midi2skini@exe/src_FileIO.cpp.o' -MF 'src/midi2scores/e3a398d@@midi2skini@exe/src_FileIO.cpp.o.d' -o 'src/midi2scores/e3a398d@@midi2skini@exe/src_FileIO.cpp.o' -c ../../src/midi2scores/src/FileIO.cpp",
+    "file": "../../src/midi2scores/src/FileIO.cpp",
+    "output": "src/midi2scores/e3a398d@@midi2skini@exe/src_FileIO.cpp.o"
+  },
+  {
+    "directory": "/Users/mireiadg/Documents/PAV/P5/build/release",
+    "command": "c++ -Isrc/midi2scores/e3a398d@@midi2skini@exe -Isrc/midi2scores -I../../src/midi2scores -I../../src/midi2scores/include -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -DOSXPC -m32 -arch x86_64 -MD -MQ 'src/midi2scores/e3a398d@@midi2skini@exe/src_MidiFile.cpp.o' -MF 'src/midi2scores/e3a398d@@midi2skini@exe/src_MidiFile.cpp.o.d' -o 'src/midi2scores/e3a398d@@midi2skini@exe/src_MidiFile.cpp.o' -c ../../src/midi2scores/src/MidiFile.cpp",
+    "file": "../../src/midi2scores/src/MidiFile.cpp",
+    "output": "src/midi2scores/e3a398d@@midi2skini@exe/src_MidiFile.cpp.o"
+  },
+  {
+    "directory": "/Users/mireiadg/Documents/PAV/P5/build/release",
+    "command": "c++ -Isrc/midi2scores/e3a398d@@midi2skini@exe -Isrc/midi2scores -I../../src/midi2scores -I../../src/midi2scores/include -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -DOSXPC -m32 -arch x86_64 -MD -MQ 'src/midi2scores/e3a398d@@midi2skini@exe/src_Options.cpp.o' -MF 'src/midi2scores/e3a398d@@midi2skini@exe/src_Options.cpp.o.d' -o 'src/midi2scores/e3a398d@@midi2skini@exe/src_Options.cpp.o' -c ../../src/midi2scores/src/Options.cpp",
+    "file": "../../src/midi2scores/src/Options.cpp",
+    "output": "src/midi2scores/e3a398d@@midi2skini@exe/src_Options.cpp.o"
+  },
+  {
+    "directory": "/Users/mireiadg/Documents/PAV/P5/build/release",
+    "command": "c++ -Isrc/midi2scores/e3a398d@@midi2skini@exe -Isrc/midi2scores -I../../src/midi2scores -I../../src/midi2scores/include -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O3 -DOSXPC -m32 -arch x86_64 -MD -MQ 'src/midi2scores/e3a398d@@midi2skini@exe/src_Options_private.cpp.o' -MF 'src/midi2scores/e3a398d@@midi2skini@exe/src_Options_private.cpp.o.d' -o 'src/midi2scores/e3a398d@@midi2skini@exe/src_Options_private.cpp.o' -c ../../src/midi2scores/src/Options_private.cpp",
+    "file": "../../src/midi2scores/src/Options_private.cpp",
+    "output": "src/midi2scores/e3a398d@@midi2skini@exe/src_Options_private.cpp.o"
+  }
+]

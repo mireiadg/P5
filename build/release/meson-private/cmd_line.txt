@@ -1,0 +1,8 @@
+[options]
+prefix = /Users/mireiadg/PAV
+libdir = lib
+buildtype = release
+backend = ninja
+
+[properties]
+

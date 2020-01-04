@@ -46,7 +46,7 @@ if system == 'linux'
 elif system == 'darwin'
     cpp_args = ['-DOSXPC']
     if host_machine.cpu_family().contains('x86')
-         cpp_args += ['-m32', '-arch', 'i386']
+         cpp_args += ['-m32', '-arch', 'x86_64']
     endif
 else
 	warning('La arquitectura "@0@" no está soportada,'.format(system))
@@ -72,3 +72,5 @@ custom_target(midi2sco,
     command : ['ln', '-sf', source, dest],
     build_by_default: true,
 )
+
+cpp_args = []

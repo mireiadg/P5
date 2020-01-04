@@ -1,0 +1,48 @@
+Build started at 2020-01-03T18:13:19.808642
+Main binary: /usr/local/opt/python/bin/python3.7
+Build Options: -Dprefix=/Users/mireiadg/PAV -Dlibdir=lib -Dbuildtype=release -Dbackend=ninja
+Python system: Darwin
+The Meson build system
+Version: 0.52.0
+Source dir: /Users/mireiadg/Documents/PAV/P5
+Build dir: /Users/mireiadg/Documents/PAV/P5/build/release
+Build type: native build
+Project name: Práctica 5 de PAV - Síntesis musical polifónica
+Project version: v2.0
+C++ compiler for the build machine: c++ (clang 10.0.1 "Apple LLVM version 10.0.1 (clang-1001.0.46.4)")
+C++ linker for the build machine: APPLE ld 450.3
+C++ compiler for the host machine: c++ (clang 10.0.1 "Apple LLVM version 10.0.1 (clang-1001.0.46.4)")
+C++ linker for the host machine: APPLE ld 450.3
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Program doxygen found: YES (/usr/local/bin/doxygen)
+Configuring Doxyfile using configuration
+Build targets in project: 5
+Found ninja-1.9.0 at /usr/local/bin/ninja
+Running compile:
+Working directory:  /var/folders/cw/ntqcb7ks2417tv0rq74crf1w0000gn/T/tmplxylig9o
+Command line:  c++ /var/folders/cw/ntqcb7ks2417tv0rq74crf1w0000gn/T/tmplxylig9o/testfile.cpp -o /var/folders/cw/ntqcb7ks2417tv0rq74crf1w0000gn/T/tmplxylig9o/output.obj -pipe -c -std=c++11 
+
+Code:
+ int i = static_cast<int>(0);
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler accepts -std=c++11: YES
+Running compile:
+Working directory:  /Users/mireiadg/Documents/PAV/P5/build/release/meson-private/tmp77simg_k
+Command line:  c++ /Users/mireiadg/Documents/PAV/P5/build/release/meson-private/tmp77simg_k/testfile.cpp -o /Users/mireiadg/Documents/PAV/P5/build/release/meson-private/tmp77simg_k/output.obj -pipe -c -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ programs: =/Library/Developer/CommandLineTools/usr/bin
+libraries: =/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1
+
+Compiler stderr:
+ 

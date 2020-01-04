@@ -1,6 +1,6 @@
 #include <iostream>
 #include <math.h>
-#include "instrument_dumb.h"
+#include "seno.h"
 #include "keyvalue.h"
 
 #include <stdlib.h>
@@ -8,7 +8,7 @@
 using namespace upc;
 using namespace std;
 
-InstrumentDumb::InstrumentDumb(const std::string &param)
+Seno::Seno(const std::string &param)
   : adsr(SamplingRate, param) {
   bActive = false;
   x.resize(BSIZE);
@@ -17,11 +17,17 @@ InstrumentDumb::InstrumentDumb(const std::string &param)
     You can use the class keyvalue to parse "param" and configure your instrument.
     Take a Look at keyvalue.h
   */
+
   KeyValue kv(param);
   int N;
 
+
   if (!kv.to_int("N",N))
     N = 40; //default value
+
+    float note =0, fo;
+    fo = 440 * 2^((note-69)/12);
+
 
   //Create a tbl with one period of a sinusoidal wave
   tbl.resize(N);
@@ -34,7 +40,7 @@ InstrumentDumb::InstrumentDumb(const std::string &param)
 }
 
 
-void InstrumentDumb::command(long cmd, long note, long vel) {
+void Seno::command(long cmd, long note, long vel) {
   if (cmd == 9) {		//'Key' pressed: attack begins
     bActive = true;
     adsr.start();
@@ -50,7 +56,7 @@ void InstrumentDumb::command(long cmd, long note, long vel) {
 }
 
 
-const vector<float> & InstrumentDumb::synthesize() {
+const vector<float> & Seno::synthesize() {
   if (not adsr.active()) {
     x.assign(x.size(), 0);
     bActive = false;
@@ -62,6 +68,7 @@ const vector<float> & InstrumentDumb::synthesize() {
   for (unsigned int i=0; i<x.size(); ++i) {
     x[i] = A * tbl[index++];
     if (index == tbl.size())
+
       index = 0;
   }
   adsr(x); //apply envelope to x and update internal status of ADSR
